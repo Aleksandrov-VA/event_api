@@ -15,6 +15,3 @@ class Event:
                 f'title: {self.title} \n'
                 f'start_at: {self.start_at}\n'
                 f'end_at: {self.end_at}')
-
-test = Event.create(3, 1317, 1318, 'заголовок события', 'текст события')
-print(test)
